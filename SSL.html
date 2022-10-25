@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSL REGISTERATION FORM</title>
+    <link href="ssl.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+
+        <div class="head1">SSL Registration Form</div>
+        <br>
+        <div class="form">
+            <form action="sll-registration.php" method="get"></form>
+                <div>Name: <input type="text" placeholder="Enter Your Name" required></div>
+                <br>
+                <div>Father's Name: <input type="text" placeholder="Enter Your Father's Name" required></div>
+                <br>
+                <div>Surname: <input type="text" placeholder="Enter Your Surname" required></div>
+                <br>
+                <div>Age: <input type="number" placeholder="Age" min="0" max="100" required></div>
+                <br>
+                <div>Phone Number: <input type="number" placeholder="###-###-####" required></div>
+                <br>
+                <div>Please Select Your Sabha: 
+                    <div class="sabha">
+                        <label for="sabha">
+                            <input type="radio" name="sabha" id="ghatkopar-east">Ghatkopae East <br>
+                            <input type="radio" name="sabha" id="sarvoday">Sarvoday<br>
+                            <input type="radio" name="sabha" id="asalpha">Asalpha<br>
+                            <input type="radio" name="sabha" id="chiragnagar">Chiragnagar<br>
+                        </label>
+                    </div>
+                </div>
+                <br>
+                <div>Select Your any 4 Favourite sports: 
+                    <div>
+                        <label for="sport">
+                            <input type="checkbox" name="sports" id="cricket">Cricket<br>
+                            <input type="checkbox" name="sports" id="kho-kho">Kho-Kho<br>
+                            <input type="checkbox" name="sports" id="relay-race">Relay-Race<br>
+                            <input type="checkbox" name="sports" id="langadi">Langadi<br>
+                        </label>
+                    </div>
+                </div>
+                <div class="submit"><input type="submit" value="Submit" name="submit" id="submit" style="width:190px;  background: linear-gradient(90deg, #dc0606ca, #05073a );  color:azure; border-radius: 30px;"></div>
+            </form>
+        </div>
+
+    </div>    
+          
+    
+</body>
+</html>

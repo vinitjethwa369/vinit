@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI' Tahoma, Geneva , Verdana, sans-serif;
+}
+
+body{
+    align-items: center;
+    color : #fff ;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #05073a, #dc0606ca ); 
+}
+div.head1{
+margin-top: 10px;
+margin-left: 10px;
+font-size: 30px;
+}
+
+div.main {
+    width: 350px;
+    height: 520px ;
+    border: #05073a solid;
+    background-color: #05073a;
+    border-radius: 30px;
+    color: white;
+   
+   
+  
+}
+
+div.form 
+{
+    margin-left: 20px;
+}
+
+div.submit {
+    margin-top: 20px;
+    margin-left: 60px;
+    
+    
+}
